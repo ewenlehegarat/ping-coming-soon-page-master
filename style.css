@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Franklin';
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    margin-top: 35px;
+}
+
+span{
+    color: black;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+input{
+    border-radius: 50px;
+    width: 400px;
+}
+
+button{
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 16px;
+    padding: 15px 60px;
+    margin-left: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.img_1{
+    width: 650px;
+    margin-top: 75px;
+}
+
+.bloc{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 130px;
+}
+
+.facebook{
+    width: 8px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.facebook:hover{
+    background-color: hsl(223, 87%, 63%);
+}
+
+.twitter{
+    width: 14px;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    background-color: hsl(223, 87%, 63%);
+}
+
+
+.insta{
+    width: 13px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.insta:hover{
+    background-color: hsl(223, 87%, 63%);
+}
+
+
+h3{
+    font-weight: 400;
+    font-size: 13px;
+    color: hsl(0, 0%, 59%);
+    margin-top: 30px;
+}
