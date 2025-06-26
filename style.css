@@ -38,8 +38,11 @@ h2{
 }
 
 input{
+    border: none;
+    border: 1px solid grey;
     border-radius: 50px;
     width: 400px;
+    padding-left: 21px;
 }
 
 button{
@@ -103,4 +106,13 @@ h3{
     font-size: 13px;
     color: hsl(0, 0%, 59%);
     margin-top: 30px;
+}
+
+p{
+    color: hsl(354, 100%, 66%);
+    font-size: 12px;
+    margin-right: 363px;
+    margin-top: 5px;
+    font-style: italic;
+    display: none;
 }
